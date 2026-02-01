@@ -1,0 +1,50 @@
+/* Define a fonte padrão para todo o corpo da página */
+body {
+    background-color: #000000; /* Fundo agora é preto */
+    color: white;
+    font-family: 'Montserrat', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.content-box {
+    text-align: center;
+    background-color: #1a1a1a; /* Uma caixa preta um pouco mais clara para destacar */
+    padding: 30px 20px;
+    border-radius: 5px; /* Cantos levemente arredondados para a caixa */
+    width: 80%; /* Ajuste a largura */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.5);
+}
+
+h1 {
+    font-weight: 700; /* Negrito */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.button-link {
+    background-color: #666666; /* Cor cinza mais escura para o botão */
+    color: white;
+    text-decoration: none; /* Remove o sublinhado padrão de links */
+    padding: 10px 50px;
+    /* Cantos arredondados para o botão */
+    border-radius: 5px; 
+    font-size: 14px;
+    display: inline-block;
+    font-weight: normal; /* Fonte normal */
+}
+
+.button-link:hover {
+    background-color: #555555;
+}
+
+
